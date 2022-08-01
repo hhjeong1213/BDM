@@ -1,0 +1,359 @@
+@charset "uft-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul,ol{
+    list-style: none;
+}
+img, video{
+    vertical-align: middle;
+}
+
+body{
+    font-family: "맑은고딕";
+    font-size: 15px;
+    line-height: 25px;
+    color: #000;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+/*header*/
+header{
+    background-color: rgb(56,56,58);
+}
+#header_inner{
+    width: 1320px;
+    margin: 0 auto;
+}
+#gnb li{
+    float: left;
+    font-size: 23px;
+    font-weight: 500;
+    padding-right: 60px;
+    transition: all 1s;
+    color: #fff;
+}
+#icon li{
+    float: left;
+    padding-left: 30px;
+}
+#logo{
+    float:left;
+    margin-left: 80px;
+    padding-top: 33px;
+}
+#gnb{
+    float: left;
+    margin-left: 150px;
+    padding-top: 39px;
+    padding-bottom: 39px;
+    
+}
+#icon{
+    float: right;
+    margin-right: 80px;
+    padding-top: 39px;
+    padding-bottom: 39px;  
+}
+
+#gnb li a:hover{
+    color: orangered;
+}
+/*main_banner*/
+#main_banner img{
+    width: 100%;
+    height: auto;
+}
+
+/*museum*/
+#museum_inner{
+    width: 1320px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 150px; 
+    margin-bottom: 170px;
+    position: relative;
+}
+#museum .visit{
+    background-color: #fff;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-left: -450px;
+    width: 800px;
+    height: 190px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    box-shadow: 10px 10px 0px rgba(0, 0, 0,0.1);
+}
+.visit h2{
+    text-align: center;
+    padding-bottom:20px;
+    padding-right: 103px;
+    font-size: 24px;
+}
+.visit p{
+    text-align: left;
+    padding-bottom:5px;
+    font-size: 15px;
+    line-height: 30px;
+}
+.visit span{
+    font-size: 13px;
+}
+
+#museum_inner ul li{
+    float: left;
+}
+
+.left{
+    padding-left: 115px;
+}
+#museum_inner ul li img img{
+    display: block;
+}
+
+/*transport*/
+#museum .transport{
+  background-color: #fff;
+  position: absolute;
+  top: 88%;
+  left: 50%;
+  margin-left:-350px;
+  width: 610px;
+  height: 180px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 100px;
+  box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.1);
+}
+.transport h2{
+    text-align: center;
+    padding-bottom:20px;
+    padding-right: 100px;
+    font-size: 24px;
+}
+.transport p{
+    text-align: left;
+    padding-bottom:5px;
+    font-size: 15px;
+    line-height: 30px;
+}
+.transport span{
+    font-size: 13px;
+}
+
+/*library*/
+#library{  
+    position: relative;
+    padding-top: 180px;
+}
+#library_inner{
+    width: 1320px;
+    margin: 0 auto;   
+}
+#library img{
+    width: 100%;
+}
+#library_inner .collection{
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 60%;
+    left: 21%;
+}
+#library_inner .children{
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 32%;
+    left: 52%;
+}
+.collection h2, .children h2{
+    text-align: center;
+    font-size: 24px;
+    line-height: 100%; 
+    padding-bottom:20px;  
+}
+.collection p, .children  p{
+    text-align: left;
+    font-size: 15px; 
+    line-height: 30px;
+}
+.collection{
+    padding: 40px 43px;
+}
+.children{
+    padding: 50px 43px;
+}
+
+/*pavilion*/
+#museum .pavilion{
+    background-color: #fff;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-left: -450px;
+    width: 800px;
+    height: 190px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    padding-left: 100px;
+    box-shadow: 10px 10px 0px rgba(0, 0, 0,0.1);
+}
+.pavilion h2{
+    text-align: center;
+    padding-bottom:20px;
+    padding-right: 103px;
+    font-size: 24px;
+}
+.pavilion p{
+    text-align: left;
+    padding-bottom:5px;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+/*cafe*/
+#museum .cafe{
+    background-color: #fff;
+    position: absolute;
+    top: 88%;
+    left: 50%;
+    margin-left: -350px;
+    width: 610px;
+    height: 180px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    padding-left: 100px;
+    box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.1);
+  }
+  .cafe h2{
+      text-align: center;
+      padding-bottom:20px;
+      padding-right: 100px;
+      font-size: 24px;
+  }
+  .cafe p{
+      text-align: left;
+      padding-bottom:5px;
+      font-size: 15px;
+      line-height: 30px;
+  }
+
+  /*store*/
+#store{
+    padding-top: 180px;
+    position: relative;
+}
+#store_inner{
+    width: 1320px;
+    margin: 0 auto;    
+}
+#store img{
+    width: 100%;
+}
+#store_inner .product{
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 36%;
+    left: 33%;
+}
+#store_inner .profit{
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 26%;
+    left: 58%;
+}
+.product h2, .profit h2{
+    text-align: center;
+    font-size: 24px;
+    line-height: 100%; 
+    padding-bottom:20px;  
+}
+.product p, .profit p{
+    text-align: left;
+    font-size: 15px; 
+    line-height: 30px;
+}
+.product{
+    padding: 40px 43px;
+}
+.profit{
+    padding: 40px 43px;
+}
+
+
+/*footer*/
+footer{
+    background-color: rgb(56,56,58);
+}
+#footer_inner{
+    width: 1320px;
+    margin: 0 auto;
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+#footer_inner ul li{
+    display: inline-block;
+    margin: 0 25px;
+}
+#footer_inner h3{
+    padding-top: 25px;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 100%;
+    padding-bottom: 18px;
+}
+#footer_inner h4{
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom:23px;
+}
+#footer_inner ul li{
+    opacity: 0.7;
+    border-radius: 50%;
+    transition: all 1s;
+}
+#footer_inner ul li img{
+    display: block;  
+}
+#footer_inner ul li:hover{
+    opacity: 1;
+    box-shadow: 0 0 15px rgba(255,255,255,0.5);
+}
+
+/*back_to_top_scroll_btn*/
+.back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    color: #FFF;
+    background: #000000;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+    width: 32px;
+    height: 32px;
+    border: 0;
+    border-radius: 50%;
+    display: none;
+    cursor: pointer;
+    z-index: 9999;
+}
+
+.back-to-top:hover {
+    background: #000000;
+}

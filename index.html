@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1500">
+    <title>Busan Design Museum</title> 
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!--swiper js-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    
+    <!-- Link Swiper's CSS -->
+     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <header>
+        <div id="header_inner" class="clearfix"><!--width:1320, margin:auto-->
+        <div id="logo">
+            <a href="index.html"><img src="images/LOGO.png" alt="logo"></a>
+        </div><!--logo-->
+        <ul id="gnb" class="clearfix">
+            <li><a href="sub1.html">ABOUT</a></li>
+            <li><a href="sub2.html">EXHIBITION</a></li>
+            <li><a href="sub3.html">PROGRAMME</a></li>
+            <li><a href="sub4.html">SPACE</a></li>
+        </ul><!--gnb-->
+        <ul id="icon" class="clearfix">
+            <li><a href="#"><img src="images/Icon_find.png" alt="find"></a></li>
+            <li><a href="#"><img src="images/Icon_language.png" alt="language"></a></li>
+            <li><a href="#"><img src="images/Icon_login.png" alt="login"></a></li>
+        </ul><!--icon-->
+    </div><!--header_inner-->
+    </header>
+
+    <div id="mb">
+       <video src="media/main_banner.mp4" muted autoplay loop></video>
+    </div>
+
+    <!-- Swiper -->
+    <div class="swiper exhibition">
+        <div class="text">
+            <h1 class="title">EXHIBITIONS</h1>
+            <p class="description">부산디자인 뮤지엄은 현재와 미래의 디자인을 통해 미래의 <br>
+            가능성을 살펴볼 수 있는 기획전시를 소개합니다.</p>
+        </div>
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><a href="#"><img src="images/Exhibition Green.jpg" alt="Green"></a></div>
+          <div class="swiper-slide"><a href="#"><img src="images/Exhibition Artisan.jpg" alt="Artisan"></a></div>
+          <div class="swiper-slide"><a href="#"><img src="images/Exhibition Alessi.jpg" alt="Alessi"></a></div>
+        </div><!--swiper-wrapper-->
+        <div class="swiper-pagination"></div>
+      </div><!--exhibition-->
+
+      <div id="collection">
+        <div id="collection_inner" class="clearfix"><!--width:1320px, margin:auto-->
+        <div class="text_box" data-aos="fade-right" data-aos-duration="300" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <h3>COLLECTIONS</h3>
+            <h1>건축가들이<br>디자인한 의자들</h1>
+            <h2>모더니즘 건축가의 건축과<br>디자인 철학을 상징하는 의자</h2>
+            <p>부산 디자인 뮤지엄의 소장품을 통해 디자인의 과거와 <br>
+            현재, 미래를 상설 전시를 통해 만나볼 수 있습니다.</p>
+            <p class="btn"><a href="sub2.html #architect_chair"><span >READ MORE</span><img src="images/Icon_Readmore_arrow.png" alt="arrow"></a></p>
+        </div><!--text_box-->
+        
+        <div class="chair" data-aos="fade-left" data-aos-duration="500" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <img src="images/Exhibition_Collection_chair.jpg" alt="chair">
+        </div><!--chair-->
+    </div><!--collection_inner-->
+      </div><!--collection-->                       
+
+      <div id="programme">
+        <div id="programme_inner">
+        <h1 class="title">PROGRAMMES</h1>
+        <ul class="clearfix">
+            <li><a href="#" class="pro"><img src="images/Programme_workshop.jpg" alt="workshop"></a>
+            <div class="p_text">
+                <h1>WORKSHOP</h1>
+                <h3>디자인을 통한 일상의 전환</h3>
+                <p class="p">디자인을 통한 일상의 전환을  지향하는 워크숍으로 디자인<br>
+                이라는 키워드로 다양한 워크숍을 진행하고 있습니다.</p>
+                <p class="btn2"><a href="sub3.html #programmes"><span >SEE MORE</span><img src="images/Icon_Seemore_arrow.png " alt="arrow2"></a></p>
+            </div><!--p_text-->
+            </li>
+            <li><a href="#" class="pro"><img src="images/Programme_Education.jpg" alt="Education"></a>
+            <div class="p_text">
+                <h1>EDUCATION</h1>
+                <h3>일상에서 디자인의 가치 발견</h3>
+                <p class="p">디자인에 대한 이해와 일상에서 디자인의 가치를 발견하고 <br>
+                디자인으로 사회와 소통하는 뮤지엄 교육을 운영합니다.</p>
+                <p class="btn2"><a href="sub3.html #programmes"><span >SEE MORE</span><img src="images/Icon_Seemore_arrow.png " alt="arrow2"></a></p>
+            </div><!--p_text-->
+            </li>
+            <li><a href="#" class="pro"><img src="images/Programme_Digital.jpg" alt="digital"></a>
+            <div class="p_text">
+                <h1>DIGITAL</h1>
+                <h3>새롭고 다양한 디자인 경험</h3>
+                <p class="p">보다 깊이있는 디자인 뮤지엄 경험을 위한 21세기형 디지털<br> 
+                    서비스로 디자인을 깊이있고 편리하게 즐길수 있습니다.</p>
+                <p class="btn2"><a href="sub3.html #programmes"><span >SEE MORE</span><img src="images/Icon_Seemore_arrow.png" alt="arrow2"></a></p>
+            </div><!--p_text-->
+            </li> 
+        </ul>
+    </div><!--programme_inner-->
+      </div><!--programme-->
+
+      <div id="sub_banner">
+        <video src="media/main_sub_banner.mp4" muted autoplay loop></video>
+      </div><!--sub_banner-->
+
+      <div id="space">
+        <div id="space_inner">
+       <h1 class="title">SPACE</h1><!--title-->
+       <p class="description">전시영역을 넘어 시간과 공간 안에서 사람들이 함께 경험하고 <br>
+          느끼는 삶의 일부분으로 관람객과 디자인이 교감할 수 <br>
+          있는 부산 디자인 뮤지엄의 공간을 소개합니다.</p>
+       <ul class="clearfix">
+        <li class="museum" data-aos="fade-up" data-aos-duration="100" data-aos-offset="300" data-aos-easing="ease-in-sine"><a href="#"><img src="images/Space_museum.jpg" alt="museum"></a>
+        <div class="b_box"><img src="images/Space_museum_hover.png" alt="museum_hover"></div></li>
+        <li class="library" data-aos="fade-up" data-aos-duration="300" data-aos-anchor-placement="top-bottom" data-aos-offset="300" data-aos-easing="ease-in-sine"><a href="#"><img src="images/Space_library.jpg" alt="library"></a>
+        <div class="b_box"><img src="images/Space_library_hover.png" alt="library_hover"></div></li>
+        <li class="cafe" data-aos="fade-up" data-aos-duration="500" data-aos-anchor-placement="top-bottom" data-aos-offset="300" data-aos-easing="ease-in-sine"><a href="#"><img src="images/Space_cafe.jpg" alt="cafe"></a>
+        <div class="b_box"><img src="images/Space_cafe_hover.png" alt="cafe_hover"></div></li>
+        <li class="store" data-aos="fade-up" data-aos-duration="700" data-aos-anchor-placement="top-bottom" data-aos-offset="300" data-aos-easing="ease-in-sine"><a href="#"><img src="images/Space_store.jpg" alt="store"></a>
+        <div class="b_box"><img src="images/Space_store_hover.png" alt="store_hover"></div></li>
+       </ul>
+    </div><!--space_inner-->   
+    </div><!--space-->
+
+    <div id="information">
+       <div class="information_inner">
+        <h1 class="title">INFORMATION</h1>
+        <ul class="clearfix">
+            <li class="awards"><img src="images/Awards.jpg" alt="Awards"></li>
+            <li class="notice">
+                <h2>&lt;공지사항 및 이용안내&gt;</h2>
+                <p><a href="#">▶ 사회적 거리두기에 따른 이용안내</a></p>
+                <p><a href="#">▶ 디자인 뮤지엄 국제디자인 공모전 참여안내</a></p>
+                <p><a href="#">▶ 2022년 문화 자원 봉사단 모집안내</a></p>
+                <p><a href="#">▶ 65세 이상, 장애인, 국가유공자 등 무료 관람안내</a></p>
+                <p><a href="#">▶ 반려견 동반 디자인 뮤지엄 이용안내</a></p>
+                <p><a href="#">▶ 대중교통 이용시 방문 이용안내</a></p>
+            </li>              
+        </ul>
+       </div><!--information_inner-->
+    </div><!--information-->
+
+    <footer>
+        <div id="footer_inner">
+            <div><a href="#"><img src="images/Footer_logo.png" alt="footer_logo"></a></div>
+            <h3>COPYRIGHT ⓒ2022 BUSAN DESIGN MUSEUM. ALL RIGHTS RESERVED.</h3>
+            <h4>CONTACT +82 51 000 0000 info@bdm.com</h4>
+            <ul>
+                <li><a href="#"><img src="images/Footer_facebook.png" alt="facebook"></a></li>
+                <li><a href="#"><img src="images/Footer_Twitter.png" alt="twitter"></a></li>
+                <li><a href="#"><img src="images/Footer_kakao.png" alt="kakaotalk"></a></li>
+                <li><a href="#"><img src="images/Footer_Insta.png" alt="insta"></a></li>
+                <li><a href="#"><img src="images/Footer_youtube.png" alt="youtube"></a></li>
+            </ul>
+        </div><!--footer_inner-->
+    </footer>
+    
+        <!--back_to_top_scroll_btn-->
+        <div><a href="#" class="back-to-top" title="Back To Top">&uarr;</a></div>
+
+      
+      <!-- Initialize Swiper --><!--옵션부분 pdf파일 참조해주세요-->
+      <script>
+            var swiper = new Swiper(".exhibition", {
+          navigation: {
+               nextEl: ".swiper-button-next",   
+               prevEl: ".swiper-button-prev",
+              },//화살표를 작동하게 하는 옵션.
+          pagination: {
+              el: ".swiper-pagination",
+              clickable: true,
+              },//도트부분을 작동하게 하는 옵션.
+              autoplay: {
+                    delay: 2000,
+                    /*이미지가 자동으로 넘어가는 시간설정. 1000 = 1초*/
+                    disableOnInteraction: false,
+                },
+                loop: true,
+                /*가장 작게 설정한 breakpoint크기 이하일때 적용됨*/
+                slidesPerView: 2,
+                centeredSlides:true,
+                spaceBetween: 0,
+        });//지우면 안되요!
+      </script> 
+
+<script>
+    AOS.init();
+    </script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+    $(window).on('scroll', function() {
+        if ($(this).scrollTop() > 100) {
+            $('.back-to-top').fadeIn();
+        } else {
+            $('.back-to-top').fadeOut();
+        }
+    });
+    
+    $('.back-to-top').on('click', function(e) {
+        e.preventDefault();
+        $('html,body').animate({scrollTop: 0}, 600);
+    });
+});
+</script>
+</body>
+</html>
